@@ -1,0 +1,15 @@
+.navbar {
+    background-color: rgba(47, 47, 47, 80%) !important
+}
+
+.navbar li a {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.navbar li a:hover {
+    color: white !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+}
