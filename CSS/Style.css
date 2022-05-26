@@ -10,6 +10,65 @@
     color: white !important;
 }
 
+#nav-active{
+    color: white !important;
+}
+
 .carousel-inner img{
     width: 100%;
+}
+
+.carousel-item h3 {
+    font-size: 200%;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+.carousel-item-active button {
+    height: 50%;
+}
+
+.text-center{
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #4c1b88;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+}
+
+.btn-primary:hover {
+    background-color: #3d1570;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0px;
+}
+.container-fluid hr {
+   border-top: 3px solid rgba(0, 0, 0, 0.72);
+    margin-bottom: 2rem;
+    max-width: 90%;
+   margin-left: 3rem;
+}
+
+.welcome{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.bi {
+    margin-bottom: 3rem;
+}
+
+.clickForFun{
+    width: 100%;
+}
+
+.copyright{
+    margin-left: 2rem;
+    height: 100px;
+}
+
+.copyright td{
+    align-content: center !important;
 }
