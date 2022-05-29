@@ -13,7 +13,7 @@ function updateButtonDelete() {
     for (let i = 0; i < deleteUserButtons.length; i++) {
         deleteUserButtons[i].addEventListener('click', () => {
             let index = deleteUserButtons[i].getAttribute('value');
-            userManager.deleteUser(+index);
+            userManager.deleteUser(index);
             // goi lai ham uplodate de cap nhat deleteUserButtons
             updateButtonDelete();
         });
