@@ -127,22 +127,57 @@
 
                 <!-- Page Heading -->
                 <div class="col-12 col-md-12">
-<!--                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">-->
-<!--                        Create-->
-<!--                    </button>-->
+<!--                    Button + modal create-->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@mdo">Create</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Thêm ảnh vào kho</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="pic-name" class="col-form-label">Picture's name:</label>
+                                            <input type="text" class="form-control" id="pic-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="pic-preview" class="col-form-label">Picture's preview:</label>
+                                            <textarea class="form-control" id="pic-preview"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="pic-preview" class="col-form-label">Picture's price:</label>
+                                            <textarea class="form-control" id="pic-price"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" id="create">Thêm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                   nd button + modal-->
                     <table class="table">
                         <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Preview</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Manage</th>
                         </tr>
                         </thead>
-                        <tbody id="list-user">
+                        <tbody id="list-pics">
                         </tbody>
                     </table>
                 </div>
+
+
+
             </div>
         </div>
     </div>
