@@ -13,6 +13,9 @@ export class Picture {
     getPreview() {
         return this._preview;
     }
+    setPreview(preview) {
+        this._preview = preview;
+    }
     getPrice() {
         return this._price;
     }

@@ -1,12 +1,11 @@
 export class Picture {
-    private _name: string;
-    private _preview: string;
-    private _price : number;
+    _name: string;
+    _preview: string;
+    _price : number;
 
     constructor(name: string,
                 preview: string,
-                price: number)
-    {
+                price: number) {
         this._name = name;
         this._preview = preview;
         this._price = price;
@@ -22,6 +21,10 @@ export class Picture {
 
     getPreview(): string {
         return this._preview;
+    }
+
+    setPreview(preview:string):void{
+        this._preview = preview;
     }
 
     getPrice() : number{
